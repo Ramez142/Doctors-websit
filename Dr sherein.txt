@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>د. شيرين رشدي | نساء وتوليد</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Cairo", sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #f8c4d8, #f9e3ec);
+      color: #fff;
+      text-align: center;
+      padding: 50px 20px;
+      animation: fadeInDown 1.2s ease;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeInUp 1.2s ease;
+    }
+    h2 {
+      text-align: center;
+      color: #c2185b;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .contact {
+      text-align: center;
+      background: #f9f1f6;
+      padding: 30px;
+      border-radius: 15px;
+      margin-top: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+    .contact p {
+      margin: 10px 0;
+      font-size: 1.1rem;
+    }
+    footer {
+      text-align: center;
+      background: #c2185b;
+      color: #fff;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    @keyframes fadeInDown {
+      from {opacity: 0; transform: translateY(-30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>د. شيرين رشدي</h1>
+    <p>استشاري أمراض النساء والتوليد والعقم</p>
+  </header>
+
+  <section>
+    <h2>الخدمات الطبية</h2>
+    <div class="services">
+      <div class="card">متابعة الحمل والولادة</div>
+      <div class="card">علاج تأخر الإنجاب والعقم</div>
+      <div class="card">الفحوصات الدورية للنساء</div>
+      <div class="card">عمليات المناظير النسائية</div>
+      <div class="card">الرعاية الصحية ما بعد الولادة</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>العنوان</h2>
+    <div class="contact">
+      <p>📍 طنبدي – بجوار المستشفى (مكان للتجربة)</p>
+      <p>📧 البريد الإلكتروني: info@clinic.com</p>
+      <p>📱 واتساب: +201234567890</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 جميع الحقوق محفوظة – د. شيرين رشدي</p>
+  </footer>
+
+</body>
+</html>
